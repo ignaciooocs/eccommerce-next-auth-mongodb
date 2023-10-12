@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import User from '@/app/models/user'
+import User from '@/models/user'
 import connectionDB from '@/libs/database';
 
 interface IUserRequest { email: string, password: string }

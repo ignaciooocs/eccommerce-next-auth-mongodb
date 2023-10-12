@@ -1,4 +1,4 @@
-import User from "@/app/models/user"
+import User from "@/models/user"
 import connectionDB from "@/libs/database"
 import GoogleProvider from "next-auth/providers/google"
 import CredentialsProvider from 'next-auth/providers/credentials'
