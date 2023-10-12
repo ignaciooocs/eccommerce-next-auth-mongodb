@@ -9,12 +9,20 @@ export default async function Navbar () {
   const session = await getServerSession(options)
   return (
     <nav>
-      <ul className='p-4 flex gap-x-4'>
-        <Link href='/'>Home</Link>
-        {session 
-          ? <ButtonLogout />
-          : <ButtonAuth />
-        }
+      <ul className='flex justify-between'>
+        <section className="p-4 flex gap-x-4 items-center">
+          <Link href='/'>Home</Link>
+        </section>
+        <section className="p-4 flex gap-x-4 items-center">
+          <Link href='/products'>Productos 🛍</Link>
+          <Link href='/cart'>Carrito 🛒</Link>
+          <Link href='/transaction/create-webpay'>Webpay 🛒</Link>
+          {session && <Link href='/profile'>Perfil 🙎‍♂️</Link>}
+          {session 
+            ? <ButtonLogout />
+            : <ButtonAuth />
+          }
+        </section>
       </ul>
     </nav>
   )

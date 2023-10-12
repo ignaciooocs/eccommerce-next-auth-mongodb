@@ -1,0 +1,252 @@
+[
+  {
+      "_id": "65130fc50cd66183b44c6315",
+      "name": "Zapatillas Nike Air Max",
+      "description": "Zapatillas deportivas Nike Air Max con tecnología de amortiguación.",
+      "category": [
+          "Calzado"
+      ],
+      "price": 12999,
+      "size": [
+          "US 7",
+          "US 8",
+          "US 9"
+      ],
+      "material": "Goma",
+      "colors": [
+          "Negro/Rojo",
+          "Blanco/Azul"
+      ],
+      "details": [
+          "Suela de goma",
+          "Logo de Nike en el lateral"
+      ],
+      "brand": "Nike",
+      "image": [
+          "https://th.bing.com/th/id/OIG._S.FLD1sB8M1mfEiOjF4?pid=ImgGn"
+      ],
+      "__v": 0,
+      "stock": 9
+  },
+  {
+      "_id": "651315cf0cd66183b44c6319",
+      "name": "Gorra New Era 9FIFTY",
+      "description": "Gorra New Era 9FIFTY con visera plana y logo bordado.",
+      "category": [
+          "Accesorios"
+      ],
+      "price": 2999,
+      "size": [
+          "Talla única"
+      ],
+      "material": "Algodón",
+      "colors": [
+          "Rojo"
+      ],
+      "details": [
+          "Ajustable",
+          "100% algodón"
+      ],
+      "brand": "New Era",
+      "image": [
+          "https://th.bing.com/th/id/OIG.3DvAjV78obq4c1_LH7MS?pid=ImgGn"
+      ],
+      "__v": 0,
+      "stock": 9
+  },
+  {
+      "_id": "651316820cd66183b44c631b",
+      "name": "Gorra New Era 59FIFTY",
+      "description": "Gorra New Era 9FIFTY con visera plana y logo bordado.",
+      "category": [
+          "Accesorios"
+      ],
+      "price": 2999,
+      "size": [
+          "Talla única"
+      ],
+      "material": "Algodón",
+      "colors": [
+          "Negro"
+      ],
+      "details": [
+          "No Ajustable",
+          "100% algodón"
+      ],
+      "brand": "New Era",
+      "image": [
+          "https://th.bing.com/th/id/OIG.uGCzpCTC2nB.vKNKDFLy?pid=ImgGn"
+      ],
+      "__v": 0,
+      "stock": 10
+  },
+  {
+      "_id": "651316d30cd66183b44c631d",
+      "name": "Gorra New Era 59FIFTY NA",
+      "description": "Gorra New Era 9FIFTY con visera plana y logo bordado.",
+      "category": [
+          "Accesorios"
+      ],
+      "price": 2999,
+      "size": [
+          "Talla única"
+      ],
+      "material": "Algodón",
+      "colors": [
+          "Negro"
+      ],
+      "details": [
+          "No Ajustable",
+          "100% algodón"
+      ],
+      "brand": "New Era",
+      "image": [
+          "https://th.bing.com/th/id/OIG.T3shmWf89RttMcXArF4U?pid=ImgGn"
+      ],
+      "__v": 0,
+      "stock": 10
+  },
+  {
+      "_id": "6513185d0cd66183b44c6321",
+      "name": "Pantalones Adidas Essentials",
+      "description": "Pantalones deportivos Adidas Essentials con bolsillos laterales.",
+      "category": [
+          "Ropa",
+          "Pantalones"
+      ],
+      "price": 3499,
+      "size": [
+          "S",
+          "M",
+          "L"
+      ],
+      "material": "Impermeable",
+      "colors": [
+          "Negro",
+          "Gris"
+      ],
+      "details": [
+          "Material transpirable",
+          "Cintura elástica"
+      ],
+      "brand": "Adidas",
+      "image": [
+          "https://th.bing.com/th/id/OIG._E1LkyKtQ9dxBLC1PV4c?pid=ImgGn"
+      ],
+      "__v": 0,
+      "stock": 9
+  },
+  {
+      "_id": "6513366a69efc188e87662a9",
+      "name": "Reloj Casio G-Shock",
+      "description": "Reloj Casio G-Shock resistente a los golpes y al agua.",
+      "category": [
+          "Accesorios",
+          "Relojes"
+      ],
+      "price": 7999,
+      "size": [],
+      "material": "Goma/Metal",
+      "colors": [
+          "Negro",
+          "Amarillo"
+      ],
+      "details": [
+          "Cronómetro",
+          "Alarma"
+      ],
+      "brand": "Casio",
+      "image": [
+          "https://th.bing.com/th/id/OIG.p6.pvLFrtZq.3LVSuh3k?pid=ImgGn"
+      ],
+      "__v": 0
+  },
+  {
+      "_id": "65133cd969efc188e87662bc",
+      "name": "Zapatillas Nike Air Max",
+      "description": "Zapatillas deportivas Nike Air Max con tecnología de amortiguación.",
+      "category": [
+          "Calzado"
+      ],
+      "price": 29990,
+      "size": [
+          "US 7",
+          "US 8",
+          "US 9"
+      ],
+      "material": "Goma",
+      "stock": 10,
+      "colors": [
+          "Negro/Blanco"
+      ],
+      "details": [
+          "Suela de goma",
+          "Logo de Nike en el lateral"
+      ],
+      "brand": "Nike",
+      "image": [
+          "https://th.bing.com/th/id/OIG.iuwwRkRhuvrK4XS0UYM.?pid=ImgGn"
+      ],
+      "__v": 0
+  },
+  {
+      "_id": "65177dde047790254b3834d0",
+      "name": "Chaqueta The North Face",
+      "description": "Chaqueta The North Face impermeable y transpirable.",
+      "category": [
+          "Ropa"
+      ],
+      "price": 129990,
+      "size": [
+          "S",
+          "M",
+          "L"
+      ],
+      "material": "Impermeable",
+      "stock": 10,
+      "colors": [
+          "Gris",
+          "Negro"
+      ],
+      "details": [
+          "Tecnología DryVent",
+          "Bolsillos con cremallera"
+      ],
+      "brand": "The North Face",
+      "image": [
+          "https://th.bing.com/th/id/OIG.LaZmBMyT1dupvkBwJkDW?pid=ImgGn"
+      ],
+      "__v": 0
+  },
+  {
+      "_id": "65177f4e047790254b3834e6",
+      "name": "Chaqueta The North Face Naranja",
+      "description": "Chaqueta The North Face Naranja impermeable y transpirable.",
+      "category": [
+          "Ropa"
+      ],
+      "price": 129990,
+      "size": [
+          "S",
+          "M",
+          "L",
+          "XL"
+      ],
+      "material": "Impermeable",
+      "stock": 10,
+      "colors": [
+          "Gris",
+          "Naranjo"
+      ],
+      "details": [
+          "Tecnología DryVent",
+          "Bolsillos con cremallera",
+          "Capucha"
+      ],
+      "brand": "The North Face",
+      "image": [
+          "https://th.bing.com/th/id/OIG.IL_GoPOp3kT0E7CcOJyp?pid=ImgGn"
+      ],
+      "__v": 0
+  }
+]
