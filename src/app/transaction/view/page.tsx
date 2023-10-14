@@ -35,13 +35,13 @@ export default function Transaction () {
     }
   })
 
-  if (isLoading) return <section>Loading...</section>
+  if (isLoading) return <section className="flex justify-center items-center h-full py-8 font-sans font-bold text-center text-2xl">Espere mientras se completa la transacción</section>
   if (error) return <section>error</section>
   if (!data) return redirect('/')
 
   console.log(data)
   return  (
-    <section className="flex flex-col items-center h-screen py-8">
+    <section className="flex flex-col items-center">
       {data.status === 'AUTHORIZED' && <PaymentAuthorized data={data} />}
       {data.status === "FAILED" && <PaymentFailed buy_order={data.buy_order} />}
       {data.canceled && <section>El pago a sido anulado</section>}

@@ -9,18 +9,21 @@ import User from '@/models/user'
 
 export async function POST (req: Request) {
   // WebpayPlus.configureForIntegration('597055555532', '579B532A7440BB0C9079DED94D31EA1615BACEB56610332264630D42D0A36B1C')
-  const body = await req.json()
-
-  // se suman todos los productos que tiene el carrito de compra
-  const amount = body.reduce((acc: number, product: CartItem) => acc + (product.id_product.price * product.quantity), 0)
-
-  const sessionId = v4()
-  const buyOrder = generarNumeroOrden()
-  const returnUrl = 'http://localhost:3000/transaction/view'
-
   try {
     // Se busca el usuario qye esta activo en ese momento
     const session = await getServerSession()
+    if (!session) return NextResponse.json({ error: 'Debes iniciar sesion para realizar una compra' })
+    
+    const body = await req.json()
+
+    // se suman todos los productos que tiene el carrito de compra
+    const amount = body.reduce((acc: number, product: CartItem) => acc + (product.id_product.price * product.quantity), 0)
+
+    const sessionId = v4()
+    const buyOrder = generarNumeroOrden()
+    const returnUrl = 'http://localhost:3000/transaction/view'
+
+    
     const user = await User.findOne({ email: session?.user?.email })
 
     // Se crea la orden de la compra en WEBPAY

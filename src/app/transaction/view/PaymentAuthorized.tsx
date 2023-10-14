@@ -3,7 +3,6 @@ import { CartItem } from "@/types/Interfaces";
 import { dateFormat, formatoNumero, typePayment, typeQuota } from "@/utils/format";
 
 export default function PaymentAuthorized ({ data }: any) {
-  console.log(data)
   return (
     <section className="flex flex-col items-center">
       <p className="text-3xl font-sans text-center">El pago se a realizado correctamente! ✔</p>
