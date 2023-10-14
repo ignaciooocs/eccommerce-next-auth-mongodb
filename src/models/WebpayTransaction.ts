@@ -1,7 +1,7 @@
 import { Document, Schema, model, models, Model } from 'mongoose';
 import './WebpayOrder'
 
-interface IWebpayTransaction extends Document {
+export interface IWebpayTransaction extends Document {
   vci: string;
   amount: number;
   status: string;

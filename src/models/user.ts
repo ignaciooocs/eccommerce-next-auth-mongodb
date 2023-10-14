@@ -4,7 +4,7 @@ import bcrypt from 'bcryptjs'
 import { TCart } from '@/types/Interfaces'
 import './product'
 
-interface IUserDocument extends Document {
+export interface IUserDocument extends Document {
   email: string
   name: string
   username: string

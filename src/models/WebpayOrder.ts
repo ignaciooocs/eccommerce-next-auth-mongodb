@@ -3,7 +3,7 @@ import { TCart } from '@/types/Interfaces'
 import './product'
 import './user'
 
-interface IWebpayOrderDocument extends Document {
+export interface IWebpayOrderDocument extends Document {
   userId?: string,
   cart: TCart,
   sessionId: string,
