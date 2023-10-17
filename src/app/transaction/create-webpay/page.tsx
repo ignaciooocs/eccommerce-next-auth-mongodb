@@ -28,7 +28,7 @@ export default function Webpay() {
     })
     const date = await response.json()
     if (date.error) return setmessage(date.error)
-    settoken(date.createTransaction.token)
+    settoken(date.orderResponse.token)
     console.log('order webpay')
   }
 
